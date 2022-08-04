@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="files\common">
+      <UniqueIdentifier>{cfd581a7-1879-446c-851e-4b7a69dca379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\request">
+      <UniqueIdentifier>{ef64dca8-257a-419a-913e-8a0c2de2acd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\loader">
+      <UniqueIdentifier>{2734f692-8b32-4739-8663-30fd388a0976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\util">
+      <UniqueIdentifier>{10f091a3-2fa6-4519-b7ee-3c36f5312761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\network">
+      <UniqueIdentifier>{7f52dc95-8b3b-4ef0-a1a5-6f0dd4359256}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.hpp">
+      <Filter>files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="request.hpp">
+      <Filter>files\request</Filter>
+    </ClInclude>
+    <ClInclude Include="bootstrap.hpp">
+      <Filter>files\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.hpp">
+      <Filter>files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="network_manager.hpp">
+      <Filter>files\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
